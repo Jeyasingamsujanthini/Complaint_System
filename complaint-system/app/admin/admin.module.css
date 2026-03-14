@@ -1,0 +1,187 @@
+.adminContainer{
+display: flex;
+height:100vh;
+}
+
+.sidebar{
+width:350px;
+background:#a7d0da;
+padding-top:130px;
+padding-left: 100px;
+display:flex;
+flex-direction:column;
+gap:40px;
+
+}
+
+.mainArea{
+flex:3;
+}
+
+.header{
+background:#1877A6;
+color:white;
+padding:20px;
+font-size:30px;
+}
+
+.content{
+padding:40px;
+}
+
+.cardContainer{
+display:flex;
+gap:40px;
+margin-top:50px;
+}
+
+.card{
+background:#f4f4f4;
+padding:50px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.label{
+    font-weight: 100;
+}
+
+.table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+.table th{
+background:#cfe1f6;
+padding:10px;
+}
+
+.table td{
+background:#eef2f7;
+padding:10px;
+text-align:center;
+}
+
+.btn{
+background:#189db7;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin-bottom:20px;
+}
+
+.formBox{
+width:400px;
+background:#f4f4f4;
+padding:30px;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.saveBtn{
+background:#58c77a;
+padding:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Center Container */
+
+.centerBox{
+display:flex;
+justify-content:center;
+align-items:center;
+height:70vh;
+}
+
+/* Password Card */
+
+.passwordCard{
+background:#f4f4f4;
+padding:30px;
+width:350px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+/* Form */
+
+.formGroup{
+display:flex;
+flex-direction:column;
+gap:6px;
+font-size: small;
+}
+
+.formGroup input{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* Button */
+
+.greenBtn{
+background:#58c77a;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.profileContainer{
+max-width:700px;
+margin:auto;
+}
+
+.profileHeader{
+display:flex;
+align-items:center;
+gap:80px;
+margin-bottom:20px;
+}
+
+.avatar{
+border-radius:50%;
+}
+
+.editBtn{
+margin-left:auto;
+background:#fff;
+border:1px solid #d6a4d6;
+padding:6px 12px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.profileCard{
+background:#f4f4f4;
+padding:20px;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.formGroup{
+display:flex;
+flex-direction:column;
+gap:5px;
+}
+
+.formGroup input{
+padding:8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
